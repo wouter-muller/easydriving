@@ -1,0 +1,10 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'dist/img/uploads'
+collections:
+  - name: 'homepage'
+    label: 'Homepage'
+    folder: '/'
+    fields:
+      - { label: "Hero Heading", name: "hero-heading", widget: "markdown" }

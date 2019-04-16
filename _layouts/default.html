@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/styles.css">
   </head>
   <body>
+
     {% include header.html %}
+
     <section>
       {{ content }}
     </section>
+
     <footer>
-      &copy; to me
     </footer>
+
   </body>
 </html>
